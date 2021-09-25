@@ -5,10 +5,13 @@
 
 <p>Ps: I'm still developing this project</p>
 
+<p>Link direto!: https://thatygama.github.io/top-rockcast/ </p>
 
--[x] HTML
--[x] CSS
--[x] JavaScript
+<br>
+<p>-[x] HTML </p>
+<p>-[x] CSS </p>
+<p>-[x] JavaScript </p>
 
+<br><br>
 <h2>Made by: Thatyane Gama</h2>
 
