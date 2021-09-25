@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top RockCast</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <header>
+        <h2 id="dev">Developer: Thatyane Gama</h2>
+    </header>
+
+    <main>
+        <section>
+            
+            <h1 id="titleRockCast">Top RockCast</h1>
+
+            <div id="imageTrack">
+                <img id="cycleImg" src="./assets/cyclo.gif">
+            </div>
+            <h2 id="title">Title</h2>
+            <h3 id="artist">Artist</h3>
+
+            <div id="controlsAudio">
+                <img class="btn" id="slower" onclick="slower()" src="./assets/slower.png">
+                <img class="btn" id="skipPrevious" onclick="skipPrevious()" src="./assets/skipprevious.png">
+                <img class="btn" id="btnPlay" onclick="playing()">
+                <img class="btn" id="btnStop" onclick="stopping()" src="./assets/stop.png">
+                <img class="btn" id="skipNext" onclick="skipNext()" src="./assets/skipnext.png">
+                <img class="btn" id="faster" onclick="faster()"src="./assets/faster.png">
+            </div>
+
+            <div id="rangesDiv">
+                <audio id="audio">
+                    <source id="audioSource" src="" type="audio/mp3">
+                </audio>
+                <p id="durationStart">00:00</p>
+                <input id="durationRange" type="range" min="0" max="100" value="0" step="1">
+                <p id="durationEnd">00:00</p>
+                <img id="volumeIcn" onclick="mute()" src="./assets/volume.png"> 
+            <input id="volumeRange" type="range" min="0" max="100">
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+<script src="script.js"></script>
+
+</body>
+</html>

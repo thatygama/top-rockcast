@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: url("./assets/vialactea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    margin: 10px;
+    color: whitesmoke;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:rgb(113, 163, 255)
+}
+
+#dev{
+    font-size: 14px;
+}
+
+section{
+    margin: auto;
+    padding-top: 5px;
+    transform: translate(0%, 30%);
+    text-align: center;
+    color: whitesmoke;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 245, 245, 0.3);
+    background-color: black;
+    width: 400px;
+    height: 340px;
+    position: relative;
+
+}
+
+#titleRockCast{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 3px 20px 3px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    background-color: #FFB13F;
+    color: black;
+}
+
+#imageTrack{
+    background-color: black;
+}
+
+#cycleImg{
+    width: 40%;
+    height: 150px;
+}
+
+#title{
+   padding-top: 10px;
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+#artist{
+    font-size: 13px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.3);
+}
+
+#controlsAudio{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.btn{
+    cursor: pointer;
+    padding: 0px 4px 0px 4px;
+}
+
+#durationStart{
+    padding-right: 4px;
+}
+
+#durationEnd{
+    padding-left: 4px;
+    padding-right: 18px;
+}
+
+#rangesDiv{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 9%;
+    margin-right: 8%;
+    justify-content: space-around;
+}
+
+#durationRange{
+    cursor: pointer;
+}
+
+#volumeIcn{
+    cursor: pointer;
+}
+
+#volumeRange{
+    width: 70px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    body{
+        background-size: 100% 200%
+    }
+
+
+}
+
+@media screen and (max-width: 413px) {
+        
+    section{
+        margin: auto;
+        padding-top: 5px;
+        transform: translate(0%, 30%);
+        text-align: center;
+        color: whitesmoke;
+        border-radius: 20px;
+        border: 1px solid rgba(245, 245, 245, 0.3);
+        background-color: black;
+        width: 90%;
+        height: 340px;
+        position: relative;
+
+    }
+
+    #durationRange{
+        width: 80%;
+        cursor: pointer;
+    }
+
+    #volumeRange{
+        width: 40%;
+        cursor: pointer;
+    }
+
+    #controlsAudio{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 26%;
+    }
+
+
+}
